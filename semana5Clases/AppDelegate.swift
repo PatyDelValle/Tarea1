@@ -13,9 +13,15 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
 
-
+    //AQUIN SE SETEAN LOS COLORES QIUE DEFINIMOS PARA   QUE CAMBIEN SIEMPRE
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        UINavigationBar.appearance().barTintColor = UIColor.mainPink()
+        
+        UINavigationBar.appearance().barStyle = .blackTranslucent
+        UINavigationBar.appearance().tintColor = .white
+        
         return true
     }
 

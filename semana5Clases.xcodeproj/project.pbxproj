@@ -14,6 +14,10 @@
 		4DF7AB522229E87E00B48B9F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DF7AB502229E87E00B48B9F /* LaunchScreen.storyboard */; };
 		4DF7AB5D2229E87E00B48B9F /* semana5ClasesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DF7AB5C2229E87E00B48B9F /* semana5ClasesTests.swift */; };
 		4DF7AB682229E87E00B48B9F /* semana5ClasesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DF7AB672229E87E00B48B9F /* semana5ClasesUITests.swift */; };
+		4DF7AB762229EAAE00B48B9F /* extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DF7AB752229EAAE00B48B9F /* extensions.swift */; };
+		4DF7AB782229F36B00B48B9F /* RegiosterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DF7AB772229F36B00B48B9F /* RegiosterViewController.swift */; };
+		4DF7AB7A2229F38500B48B9F /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DF7AB792229F38500B48B9F /* ProfileViewController.swift */; };
+		4DF7AB7C222A039B00B48B9F /* estudiante.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DF7AB7B222A039B00B48B9F /* estudiante.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +51,10 @@
 		4DF7AB632229E87E00B48B9F /* semana5ClasesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = semana5ClasesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DF7AB672229E87E00B48B9F /* semana5ClasesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = semana5ClasesUITests.swift; sourceTree = "<group>"; };
 		4DF7AB692229E87E00B48B9F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4DF7AB752229EAAE00B48B9F /* extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = extensions.swift; sourceTree = "<group>"; };
+		4DF7AB772229F36B00B48B9F /* RegiosterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegiosterViewController.swift; sourceTree = "<group>"; };
+		4DF7AB792229F38500B48B9F /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		4DF7AB7B222A039B00B48B9F /* estudiante.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = estudiante.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,9 +108,13 @@
 				4DF7AB472229E87D00B48B9F /* AppDelegate.swift */,
 				4DF7AB492229E87D00B48B9F /* ViewController.swift */,
 				4DF7AB4B2229E87D00B48B9F /* Main.storyboard */,
+				4DF7AB7B222A039B00B48B9F /* estudiante.swift */,
+				4DF7AB772229F36B00B48B9F /* RegiosterViewController.swift */,
+				4DF7AB792229F38500B48B9F /* ProfileViewController.swift */,
 				4DF7AB4E2229E87E00B48B9F /* Assets.xcassets */,
 				4DF7AB502229E87E00B48B9F /* LaunchScreen.storyboard */,
 				4DF7AB532229E87E00B48B9F /* Info.plist */,
+				4DF7AB752229EAAE00B48B9F /* extensions.swift */,
 			);
 			path = semana5Clases;
 			sourceTree = "<group>";
@@ -257,7 +269,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				4DF7AB4A2229E87D00B48B9F /* ViewController.swift in Sources */,
+				4DF7AB7C222A039B00B48B9F /* estudiante.swift in Sources */,
 				4DF7AB482229E87D00B48B9F /* AppDelegate.swift in Sources */,
+				4DF7AB7A2229F38500B48B9F /* ProfileViewController.swift in Sources */,
+				4DF7AB762229EAAE00B48B9F /* extensions.swift in Sources */,
+				4DF7AB782229F36B00B48B9F /* RegiosterViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

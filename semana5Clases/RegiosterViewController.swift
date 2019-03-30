@@ -10,21 +10,29 @@ import UIKit
 
 class RegiosterViewController: UIViewController {
 
+    @IBOutlet weak var registrerColor: UIButton!
+    @IBOutlet weak var correoTextField: UITextField!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        navigationItem.title = "Register"
+        setupUI()
+        
+    }
+    func setupUI(){
+        registrerColor.setTitleColor(UIColor.white, for: .normal)
+        registrerColor.backgroundColor = UIColor.mainPink()
+        registrerColor.layer.cornerRadius = 5.0
+        
+        //activar el teclado
+        correoTextField.becomeFirstResponder()
+    }
+
+
+    @IBAction func hiddenKeyboard(_ sender: UITapGestureRecognizer) {
+        //Esconder el teclado
+        view.endEditing(true)
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
 }
